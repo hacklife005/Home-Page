@@ -1,0 +1,385 @@
+#header{
+	margin: 0 auto;
+	height: 693px;
+	background: url(../img/23.jpg);
+	opacity: 1;
+	background-size: cover;
+	width: 100vw;
+	font-family: 'Lato', sans-serif;
+
+}
+.overlay{
+	z-index: -2;
+	height: 693px;
+    background: rgba(14, 99, 119, 0.36);
+}
+.Logo{
+	height: 98px;
+	padding: 25px 20px 20px 15px;
+	padding-left: 0px;
+}
+.Phone_number, .Location{
+	height: 98px;	
+	padding-top: 12px;
+}
+
+.row_phone{
+	display: flex;
+	justify-content: center;
+	height: 98px;
+}
+.div_cal_logo_row{
+	display: flex;
+	justify-content:flex-end;
+	padding:20px 0 20px 0;
+}
+.circle{
+
+	/*border: 1px solid #18afd3;
+	box-sizing: border-box;*/
+	width: 50px;
+    height: 50px;
+    background-color: #18afd3;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 26px;
+	line-height: 50px;
+
+}
+
+
+.ul_number{
+	padding-top: 0px;
+	margin-left: 15px;
+	color: white;
+}
+.ul_number a{
+	color: white;
+}
+
+.fa-dot-circle-o{
+padding-top: 0px;
+	color:  #f57e57;
+	font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    line-height: 1.6em;
+    font-weight: 550;
+    margin-left: 10px;
+    
+   /* text-decoration: underline;*/
+}
+.fa-dot-circle-o:hover{
+	background: #f57e57;
+	opacity: 0.9;
+	border-radius: 50%
+	/*border-rad*/
+}
+.ul_number ul  {
+
+	font-size: 15px;
+	padding: 0px;
+	list-style-type: none
+}
+
+.location_row{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.location_logo{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	color: white;
+	border-radius: 50%;
+	background-color:#18afd3;
+	width: 50px;
+    height: 50px; 
+}
+
+.location_adress{
+
+}
+
+.location_adress div{
+	padding-top: 1px;
+	margin-left: 16px;
+	font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+
+}
+
+.location_adress div a{
+	color: white;
+	font-size: 15px;
+
+}
+
+/*Form*/
+
+.header_form{
+	position: relative;
+	top:50px;
+	float: right;
+	height: 440px;
+	width: 370px;
+	border-color: rgba(33, 33, 33, 0.4);
+	background: rgba(33, 33, 33, 0.4);
+	border-radius:5px;
+	text-align: center;
+	padding: 0;
+}
+
+.h5_text_form{
+	/*border: 1px solid red;*/
+	height:70px;
+	width: 100%;
+	padding:0;
+	margin: 0px;
+	
+}
+.h5_text_form h5{
+    font-size: 22px;
+    color: #F3F4F5;
+	font-family: "Lato",Helvetica,Arial,sans-serif !important;
+    font-weight: 400 !important;
+    position: relative;
+    right: 60px;
+    top: 17px;
+}
+.Name_input{
+	/*border: 1px solid red;*/
+	height:88px;
+	width: 100%;
+	padding:0;
+	margin: 0px;
+	position: absolute;
+}
+.name_text{
+position: relative;
+right: 125px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+margin-bottom: 4px;
+font-weight: 600;
+}
+.inputName{
+position: relative;
+right: 4px;
+color: rgba(255, 255, 255, 0.5);
+
+}
+.inputName input{
+	height: 50px;
+	width: 285px;
+	border: none;
+	border-radius: 5px;
+	padding: 15px;
+	color: #868686;
+
+}
+
+.Email_input{
+
+	position: absolute;
+	/*border: 1px solid red;*/
+	height:100px;
+	width: 100%;
+	padding:0;
+	margin: 0px;
+	top:158px;
+}
+
+.email_text{
+	margin-top: 10px;
+position: relative;
+right: 125px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+margin-top: 7px;
+font-weight: 600;
+}
+.inputEmail input{
+	height: 50px;
+	width: 285px;
+	border: none;
+	border-radius: 5px;
+	padding: 15px;
+	color: #868686;
+	position: relative;
+	right: 2px;
+}
+
+.select_form{
+	position: absolute;
+	/*border: 1px solid red;*/
+	height:80px;
+	width: 100%;
+	padding:0;
+	margin: 0px;
+	top:250px;
+}
+.select_div{
+	height: 50px;
+	width: 285px;
+	position: relative;
+	left: 21px;
+	color:#212121;
+	font-size: 16px;
+	margin-bottom: 4px;
+	font-weight: 400;
+	border: none;
+	border-radius: 5px;
+}
+
+.select_text{
+		position: relative;
+right: 115px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+margin-bottom: 4px;
+font-weight: 600;
+}
+
+.btn_F{
+	
+	position: relative;
+	top: 280px;
+}
+.btn_f{
+	height: 50px;
+	width: 224px;
+	border-radius: 23px;
+    background-color: rgb(245, 126, 87);
+    border-color: rgb(245, 126, 87);
+    font-size: 16px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-transform: uppercase;
+   /* letter-spacing: 0.04em;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    backface-visibility: hidden;
+  /*  padding: 7px 35px;*/
+        letter-spacing: 0.04em;*/
+    transition: 0.3s;
+    position: relative;
+    right: 24px;
+}
+.btn_f:hover
+{
+	    background-color: #55bbeb;
+    border-color: #55bbeb;
+}
+
+
+
+
+.form_name{
+/*	display: flex;
+	justify-content: flex-start;*/
+}
+.name_input{
+	width: 287px;
+	height: 50px;
+	border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    padding: 15px;
+    line-height: 50px;
+    color: #ABB6BB;
+}
+.input_email{
+	width: 287px;
+	height: 50px;
+	border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    padding: 15px;
+    line-height: 50px;
+    color: #ABB6BB;
+}
+
+#form_doctor_select{
+	margin-top: 10px;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  
+    width: 287px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.btn_form_div{
+	margin-top: 25px;
+}
+.form_btn{
+	background: #f57e57;
+	border:none;
+	height: 40px;
+	width: 237;
+	border-radius: 19px;
+	padding:0 20px 0 20px;
+	font-weight: 700;
+	color: white;
+	line-height: 40px;
+}
+.form_btn:hover{
+	background: #18AFFF;
+	opacity: 1
+}
+
+.form_p{
+	color: #FFFFFF;
+
+}
+.sel_1{
+font-size: 	padding: 20px;
+font-size: 26px;
+line-height:40px}
+select option{
+	font-family: 
+}
+
+.slider_text{
+	padding-top: 70px;
+}
+.slider_header_h{
+	    font-size: 48px;
+	    color: white;
+	    font-family: "Lato",Helvetica,Arial,sans-serif;
+
+
+}
+
+.slider_header_p{
+	margin-top: 30px;
+    line-height: 1.27273;
+    font-size: 22px;
+    color: white;
+	font-family: "Lato",Helvetica,Arial,sans-serif;
+
+}
+
+.dot_change{
+	margin-top: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot_change ul li {
+	display: inline;
+	margin-right: 10px;
+
+}
+.dot_change ul li i{
+color: #F57E57;
+font-size: 24px;
+
+}
